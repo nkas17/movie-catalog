@@ -1,0 +1,43 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "jest": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "airbnb",
+        "plugin:import/errors",
+        "plugin:import/warnings"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "settings": {
+        "import/resolve": {
+            "extensions": [
+                ".js",
+                ".jsx"
+            ]
+        }
+    },
+    "rules": {
+        "no-tabs": 0,
+        "indent": [2,"tab"],
+        "react/jsx-indent": [2,"tab"],
+        "react/jsx-indent-props": [2,"tab"],
+        "max-len": 0,
+        "no-underscore-dangle": 0,
+        "linebreak-style": [2, "windows"],
+        "no-plusplus": 0,
+        "jsx-a11y/no-static-element-interactions": 1,
+        "func-names": 2
+    }
+}
